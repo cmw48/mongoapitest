@@ -1,0 +1,27 @@
+{
+  "name": "mongoapi",
+  "version": "1.0.0",
+  "description": "a test of the mongodb api ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmw48/mongoapitest.git"
+  },
+  "author": "Chris Westling <cmwestling@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmw48/mongoapitest/issues"
+  },
+  "homepage": "https://github.com/cmw48/mongoapitest#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
